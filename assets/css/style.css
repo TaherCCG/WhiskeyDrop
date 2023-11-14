@@ -6,3 +6,17 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
 }
+
+.alert-container {}
+
+.callout-container {
+    height:100vh;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.table.container {}
+
+
