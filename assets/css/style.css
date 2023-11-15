@@ -7,23 +7,38 @@ body {
     font-weight: 600;
 } */
 
-.alert-container {}
 
+/* alert container */
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #e0d206;
+    border-color: #e0d206;
+}
+
+/* callout container */
 .callout-container {
-    height:100vh;
-    background: url(../images/pexels-eva-bronzini-7254848.jpg) no-repeat center center fixed; 
+    height: 100vh;
+    background: url(../images/pexels-eva-bronzini-7254848.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
     position: relative;
 }
 
+/* overlay for image */
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -33,11 +48,39 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* content containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #d35c2c;
+    color: white;
+}
+
+
+
+
 .quotes-container {}
 
 .features-container {}
 
 .table.container {}
+
+/* Page headers */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 
 /* Block-dividers */
 
@@ -46,7 +89,17 @@ body {
     height: 5px;
     border: 0;
     background-color: #d35c2c;
+    border-radius: 2px;
 }
+
+class.divider--short{
+    width: 35px;
+}
+
+.class-divider--white{
+    background-color: white;
+}
+
 
 /* Navbar */
 
@@ -75,12 +128,14 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
 }
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(209, 59, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 .custom-toggler.navbar-toggler-icon {
     border-color: rgb(209, 59, 0);
-  } 
+}
 
 .navbar .navbar-nav a {
     font-weight: bold;
@@ -91,15 +146,18 @@ body {
 .jumbotron {
     background-color: transparent;
 }
+
 .jumbotron-header {
     color: white;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     margin-bottom: 30px;
 }
+
 .jumbotron .lead {
-color: rgb(173, 173, 173);
+    color: rgb(173, 173, 173);
 }
+
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
@@ -111,10 +169,10 @@ color: rgb(173, 173, 173);
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width:160px;
+    width: 160px;
 }
 
-.btn--red{
+.btn--red {
     color: white;
     background-color: #d35c2c;
     border-color: #d35c2c;
