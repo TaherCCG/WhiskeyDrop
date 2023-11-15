@@ -2,12 +2,6 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* .logo {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-} */
-
-
 /* alert container */
 .alert-container .col-12 {
     padding-left: 0;
@@ -61,9 +55,7 @@ body {
     color: white;
 }
 
-
-
-
+/* saved for future amendments  */
 .quotes-container {}
 
 .features-container {}
@@ -82,7 +74,7 @@ body {
     margin-top: 0;
 }
 
-.quotes .page-header{
+.quotes .page-header {
     margin-bottom: 25px;
 }
 
@@ -96,11 +88,11 @@ body {
     border-radius: 2px;
 }
 
-class.divider--short{
+class.divider--short {
     width: 35px;
 }
 
-.class-divider--white{
+.class-divider--white {
     background-color: white;
 }
 
@@ -217,9 +209,7 @@ class.divider--short{
     color: white;
 }
 
-
 /* Table */
 .table {
     text-align: center;
 }
-
