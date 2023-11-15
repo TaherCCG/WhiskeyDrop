@@ -75,6 +75,7 @@ body {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .page-header h2 {
@@ -214,5 +215,11 @@ class.divider--short{
     border: 2px solid white;
     background-color: #d13b00;
     color: white;
+}
+
+
+/* Table */
+.table {
+    text-align: center;
 }
 
